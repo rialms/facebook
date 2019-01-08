@@ -1,0 +1,58 @@
+@font-face {font-family: 'dejavu_sansbold';font-weight: normal; font-style: normal;
+    src: url('dejavusans-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/358203/dejavusans-bold-webfont.woff') format('woff'), 
+        url('dejavusans-bold-webfont.ttf')  format('truetype'),
+        url('dejavusans-bold-webfont.svg#svgFontName') format('svg');}
+
+body {font-family:Georgia,"Times New Roman",serif;margin-left:20px;background:white;}
+		
+h1 {font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:90%;
+    margin-bottom:30px;margin-left:20px;padding-bottom:10px;border-bottom:4px solid black;}
+ol {margin-left:40px;margin-top:0;padding-top:0;font-size:1.5em;
+		list-style:decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);}
+
+li:nth-child(1n):before, .dejavu {font-family:dejavu_sansbold,serif;font-weight:normal;}
+/*dejavu is a free font (grab it at fontsquirrel.com) that supports Unicode U+2600 - U+26FF*/
+		
+.dicey li {margin-left:35px;position:relative;margin-bottom:0.25em;}
+.dicey li:nth-child(1n):before {position:absolute;left:-1em;}
+.dicey li:nth-child(1):before {content: "\2680";}
+.dicey li:nth-child(2):before {content: "\2681";}
+.dicey li:nth-child(3):before {content: "\2682";}
+.dicey li:nth-child(4):before {content: "\2683";}
+.dicey li:nth-child(5):before {content: "\2684";}
+.dicey li:nth-child(6):before {content: "\2685";}
+
+.cardsuits li {margin-left:35px;position:relative;margin-bottom:0.25em;}
+.cardsuits li:nth-child(1n):before {position:absolute;left:-1em;text-shadow: 2px 2px #666;}
+.cardsuits li:nth-child(1):before {content: "\2660";color:black;}
+.cardsuits li:nth-child(2):before {content: "\2665";color:red;}
+.cardsuits li:nth-child(3):before {content: "\2666";color:red;}
+.cardsuits li:nth-child(4):before {content: "\2663";color:black;}
+				
+.recyclable li {margin-left:35px;position:relative;margin-bottom:0.25em;}
+.recyclable li:nth-child(1n):before {position:absolute;left:-1.25em;}
+.recyclable li:nth-child(1):before {content: "\2673";}
+.recyclable li:nth-child(2):before {content: "\2674";}
+.recyclable li:nth-child(3):before {content: "\2675";}
+.recyclable li:nth-child(4):before {content: "\2676";}
+.recyclable li:nth-child(5):before {content: "\2677";}
+.recyclable li:nth-child(6):before {content: "\2678";}
+.recyclable li:nth-child(7):before {content: "\2679";}	
+		 
+.astrology li {margin-left:50px;position:relative;margin-bottom:0.25em;}
+.astrology li:nth-child(1n):before {position:absolute;left:-1.5em;}
+.astrology li:nth-child(1):before {content: "\2652";}
+.astrology li:nth-child(2):before {content: "\2653";}
+.astrology li:nth-child(3):before {content: "\2648";}
+.astrology li:nth-child(4):before {content: "\2649";}
+.astrology li:nth-child(5):before {content: "\264A";}
+.astrology li:nth-child(6):before {content: "\264B";}
+.astrology li:nth-child(7):before {content: "\264C";}
+.astrology li:nth-child(8):before {content: "\264D";}
+.astrology li:nth-child(9):before {content: "\264E";}
+.astrology li:nth-child(10):before {content: "\264F";}
+.astrology li:nth-child(11):before {content: "\2650";}
+.astrology li:nth-child(12):before {content: "\2651";}
+				
+li span {font-size:0.5em;}
